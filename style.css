@@ -1,25 +1,35 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-#btn{
-    font-size: large;
-    color: white;
-    background-color:#0d6efd;
-    border-radius: 10px;
-    padding: 5px;
-    display: block;
-    margin: auto;
-    margin-top: 40px;
+#btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  position: absolute;
+  top: 75%;
+  left: 48.5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-#btn:hover{
-     cursor: pointer;
-     background-color: #0b5ed7;;
+#btn:hover {
+  cursor: pointer;
 }
 
-#img{
-    width: 100vw;
-    height: 85vh;
+#img {
+  width: 50vw;
+  height: 50vh;
+  position: absolute;
+  top: 40%;
+  left: 48.5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 15px solid green;
 }
